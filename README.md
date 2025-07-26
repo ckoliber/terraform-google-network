@@ -1,8 +1,8 @@
 # Terraform Google Network
 
-![pipeline](https://github.com/cktf/terraform-google-network/actions/workflows/ci.yml/badge.svg)
-![release](https://img.shields.io/github/v/release/cktf/terraform-google-network?display_name=tag)
-![license](https://img.shields.io/github/license/cktf/terraform-google-network)
+![pipeline](https://github.com/ckoliber/terraform-google-network/actions/workflows/ci.yml/badge.svg)
+![release](https://img.shields.io/github/v/release/ckoliber/terraform-google-network?display_name=tag)
+![license](https://img.shields.io/github/license/ckoliber/terraform-google-network)
 
 **Network** is a Terraform module useful for creating **Network**, **Subnets**, **Routes**, and **Firewalls** on **Google**
 
@@ -18,7 +18,7 @@ terraform init
 
 ```hcl
 module "network" {
-  source = "cktf/network/google"
+  source = "ckoliber/network/google"
 
   name = "mynet"
 
